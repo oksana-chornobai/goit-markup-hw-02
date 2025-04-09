@@ -3,8 +3,9 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02%;
     color: #434455;
+    background-color: #fff;
 }
 
 .page-nav {
@@ -14,25 +15,31 @@ body {
 }
 
 .page-nav span {
-    color: #4d5ae5;
-}
-
-.nav-logo {
     color: #2e2f42;
 }
 
+.nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
 .nav-link {
-color: #4d5ae5;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 4%;
+color: #2e2f42;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 text-decoration: underline;
 cursor: pointer;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .address-item {
@@ -41,13 +48,28 @@ cursor: pointer;
         line-height: 1.5;
 }
 
-.address-item-link {
+.address-mail-link {
+    font-style: normal;
     text-decoration: underline;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.address-item-link:hover,
-.address-item-link:focus {
-    color: #4d5ae5;
+.address-mail-link:hover,
+.address-mail-link:focus {
+    color: #404bbf;
+}
+
+.address-tel-link {
+    font-style: normal;
+    text-decoration: underline;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-tel-link:hover,
+.address-tel-link:focus {
+    color: #404bbf;
 }
 
 .main-page {
@@ -60,9 +82,11 @@ background-color: #2e2f42;
 line-height: 1.07;
 color: #fff;
 text-align: center;
+letter-spacing: 0.02em;
 }
 
  .main-title-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 24px;
@@ -70,12 +94,19 @@ text-align: center;
         color: #fff;
         background-color: #4d5ae5;
         cursor: pointer;
+        letter-spacing: 0.04em;
  }
+
+.main-title-button:hover,
+.main-title-button:focus {
+    color: #404BBF;
+}
 
 .core-principles-title {
     font-weight: bold;
     font-size: 36px;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 .core-principles-item {
@@ -83,6 +114,10 @@ text-align: center;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+}
+
+.core-principles-text {
+    letter-spacing: 0.02em;
 }
 
 
@@ -97,6 +132,7 @@ text-align: center;
         text-align: center;
         color: #2e2f42;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .team-item {
@@ -110,10 +146,12 @@ text-align: center;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        letter-spacing: 0.02em;
 }
 
 .team-member-profession {
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-title {
@@ -122,6 +160,8 @@ text-align: center;
         line-height: 1.11;
         text-align: center;
         color: #2e2f42;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
 }
 
 .portfolio-name {
@@ -130,6 +170,11 @@ text-align: center;
         line-height: 1.2;
         color: #2e2f42;
         text-transform: capitalize;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    letter-spacing: 0.02em;
 }
 
 .page-footer {
