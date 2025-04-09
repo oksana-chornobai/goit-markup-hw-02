@@ -1,0 +1,149 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+}
+
+.page-nav {
+    color: #2e2f42;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.page-nav span {
+    color: #4d5ae5;
+}
+
+.nav-logo {
+    color: #2e2f42;
+}
+
+.nav-link {
+color: #4d5ae5;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 4%;
+text-decoration: underline;
+cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #4d5ae5;
+}
+
+.address-item {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+.address-item-link {
+    text-decoration: underline;
+}
+
+.address-item-link:hover,
+.address-item-link:focus {
+    color: #4d5ae5;
+}
+
+.main-page {
+background-color: #2e2f42;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 56px;
+line-height: 1.07;
+color: #fff;
+text-align: center;
+}
+
+ .main-title-button {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 4%;
+        color: #fff;
+        background-color: #4d5ae5;
+        cursor: pointer;
+ }
+
+.core-principles-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #2e2f42;
+}
+
+.core-principles-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.title-team {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.team-item {
+    background-color: #fff;
+}
+
+.team-member-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+
+.team-member-profession {
+    text-align: center;
+}
+
+.portfolio-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.portfolio-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #2e2f42;
+        text-transform: capitalize;
+}
+
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.page-footer span {
+    color: #4d5ae5;
+}
+
+.footer-logo {
+    color: #fff;
+}
+
+.footer-text {
+    color: #f4f4fd;
+}
