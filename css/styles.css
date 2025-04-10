@@ -63,7 +63,7 @@ address {
 
 .address-link:hover,
 .address-link:focus {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 .main-page {
@@ -91,9 +91,7 @@ letter-spacing: 0.02em;
         letter-spacing: 0.04em;
  }
 
-.main-title-button:hover {
-    background-color: #404BBF;
-}
+.main-title-button:hover,
 .main-title-button:focus {
     background-color: #404BBF;
 }
