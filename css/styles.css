@@ -42,34 +42,28 @@ cursor: pointer;
     color: #404bbf;
 }
 
+address {
+    color: #434455;
+    font-style: normal
+    ;}
+
 .address-item {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        color: #434455;
 }
 
-.address-mail-link {
+.address-link {
     font-style: normal;
     text-decoration: underline;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.address-mail-link:hover,
-.address-mail-link:focus {
-    color: #404bbf;
-}
-
-.address-tel-link {
-    font-style: normal;
-    text-decoration: underline;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.address-tel-link:hover,
-.address-tel-link:focus {
-    color: #404bbf;
+.address-link:hover,
+.address-link:focus {
+    background-color: #404bbf;
 }
 
 .main-page {
@@ -97,9 +91,11 @@ letter-spacing: 0.02em;
         letter-spacing: 0.04em;
  }
 
-.main-title-button:hover,
+.main-title-button:hover {
+    background-color: #404BBF;
+}
 .main-title-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .core-principles-title {
@@ -114,6 +110,7 @@ letter-spacing: 0.02em;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 .core-principles-text {
@@ -182,13 +179,20 @@ letter-spacing: 0.02em;
 }
 
 .page-footer span {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-logo {
-    color: #fff;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 
 .footer-text {
     color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
